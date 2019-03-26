@@ -1,23 +1,17 @@
-body {
+html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-
-.container-fluid {
-  max-width: 1440px;
-}
-
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-html {
-  box-sizing: border-box;
-  background: #f1f1f1;
+.container-fluid {
+  max-width: 1440px;
 }
-
 .center {
   text-align: center;
 }
@@ -31,6 +25,7 @@ html {
 .runspk-team--logo {
   max-width: 100px;
 }
+
 
 .runspk-stats--list {
   overflow: hidden;
@@ -76,9 +71,12 @@ html {
 
 .runspk-stats--table {
   border-radius: 0.3rem;
+
   thead {
-    > th {
+    font-size: 14px;
+    th {
       font-weight: 600;
+      border-bottom: none;
     }
   }
   th,

@@ -4,6 +4,9 @@
 }
 .runspk-logo--anchor {
   img {
-    max-width: 100px;
+    max-width: 75px;
+    @include media-breakpoint-up(sm) {
+      max-width: 100px;
+    }
   }
 }

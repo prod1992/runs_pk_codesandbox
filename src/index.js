@@ -11,7 +11,7 @@ function App() {
           <div className="row align-items-center">
             <div className="col-auto">
               <a href="/" className="runspk-logo--anchor">
-                <img src="/images/main-logo-grey@2x.png" alt="runs.pk" />
+                <img src="./images/main-logo-grey@2x.png" alt="runs.pk" />
               </a>
             </div>
             <div className="col-auto ml-auto">
@@ -21,7 +21,22 @@ function App() {
                 </span>
               </h5>
             </div>
-            <div className="col-auto ml-auto" />
+            <div className="col-auto">
+              <select className="form-control">
+                <option value="match_1">
+                  Kings XI Punjab vs Mumbai Indians
+                </option>
+                <option value="match_2">
+                  Kings XI Punjab vs Mumbai Indians
+                </option>
+                <option value="match_3">
+                  Kings XI Punjab vs Mumbai Indians
+                </option>
+                <option value="match_4">
+                  Kings XI Punjab vs Mumbai Indians
+                </option>
+              </select>
+            </div>
           </div>
         </div>
       </header>
@@ -34,12 +49,14 @@ function App() {
                   <div className="col">
                     <div className="row align-items-center justify-content-around">
                       <div className="col-auto">
-                        <h3 className="runspk-team--title">Kings XI Punjab</h3>
+                        <h3 className="runspk-team--title m-0">
+                          Kings XI Punjab
+                        </h3>
                       </div>
                       <div className="col-auto">
                         <img
                           className="runspk-team--logo"
-                          src="/images/main-1200px-kingsxipunjablogosvg@2x.png"
+                          src="./images/main-1200px-kingsxipunjablogosvg@2x.png"
                           alt="Kings XI Punjab"
                         />
                       </div>
@@ -53,12 +70,14 @@ function App() {
                       <div className="col-auto">
                         <img
                           className="runspk-team--logo"
-                          src="/images/main-1200px-mumbaiindianslogosvg@2x.png"
+                          src="./images/main-1200px-mumbaiindianslogosvg@2x.png"
                           alt="Kings XI Punjab"
                         />
                       </div>
                       <div className="col-auto">
-                        <h3 className="runspk-team--title">Mumbai Indians</h3>
+                        <h3 className="runspk-team--title m-0">
+                          Mumbai Indians
+                        </h3>
                       </div>
                     </div>
                   </div>
@@ -118,46 +137,46 @@ function App() {
                         <td>
                           <div className="d-flex align-items-center justify-content-center">
                             <img
-                              src="/images/main-photo-1@2x.png"
+                              src="./images/main-photo-1@2x.png"
                               className="runspk-table--playerthumb mr-3"
                               alt=""
                             />
                             KL Rahul
                           </div>
                         </td>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>23</td>
+                        <td>36</td>
+                        <td>12</td>
                       </tr>
                       <tr>
                         <td>
                           <div className="d-flex align-items-center justify-content-center">
                             <img
-                              src="/images/main-photo-2@2x.png"
+                              src="./images/main-photo-2@2x.png"
                               className="runspk-table--playerthumb mr-3"
                               alt=""
                             />
                             KL Rahul
                           </div>
                         </td>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>23</td>
+                        <td>36</td>
+                        <td>12</td>
                       </tr>
                       <tr>
                         <td>
                           <div className="d-flex align-items-center justify-content-center">
                             <img
-                              src="/images/main-photo-3@2x.png"
+                              src="./images/main-photo-3@2x.png"
                               className="runspk-table--playerthumb mr-3"
                               alt=""
                             />
                             KL Rahul
                           </div>
                         </td>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>23</td>
+                        <td>36</td>
+                        <td>12</td>
                       </tr>
                     </tbody>
                   </table>
